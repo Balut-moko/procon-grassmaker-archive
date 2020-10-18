@@ -1,0 +1,1 @@
+print("YES" if eval(input().replace(" ", "%")) == 0 else "NO")
