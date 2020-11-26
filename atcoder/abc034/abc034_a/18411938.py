@@ -1,0 +1,1 @@
+print('Better' if eval(input().replace(' ','-')) < 0 else 'Worse')
