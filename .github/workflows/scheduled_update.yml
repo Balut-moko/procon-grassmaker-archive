@@ -19,5 +19,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name : init procon-grassmaker
+      run : procon-grassmaker --init
+
     - name : Run procon-grassmaker
       run : procon-grassmaker -y
